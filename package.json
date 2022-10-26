@@ -1,0 +1,9 @@
+{
+  "name": "apple-clone",
+  "version": "1.0.0",
+  "description": "Apple Ecommerce Clone with vanilla js",
+  "main": "index.js",
+  "author": "Guilherme Temporão",
+  "license": "MIT",
+  "devDependencies": {}
+}

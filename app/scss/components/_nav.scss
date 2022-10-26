@@ -1,0 +1,142 @@
+@use "../utils/index";
+// @use "../utils/font";
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e41a15;
+    min-height: 4rem;
+    width: 100vw;
+    z-index: 100%;
+    padding: 0 16rem;
+
+    &_logo {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    &_class_input {
+        display: flex;
+        flex-flow: row wrap;
+        width: 44rem;
+        min-height: 2.4rem;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        padding: 0 1rem;
+
+    }
+
+    &_cart {
+        display: flex;
+        flex-flow: row wrap;
+
+        &_icon {
+            display: flex;
+            height: 1.8rem;
+            color: #fff;
+        }
+
+        &_count {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-left: .7rem;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+    }
+
+    &_nav {
+        background: #fff;
+
+        &_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100vw;
+            box-shadow: 0 2px 3px rgb(40 40 40 / 20%);
+            padding-right: 16rem;
+            font-size: 1rem;
+            text-transform: uppercase;
+            z-index: 99;
+            color: #282828;
+        }
+
+        &_wrapper>div>span>a {
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-left: .8rem;
+            font-size: 13px;
+        }
+
+        &_wrapper>div>span>a:hover {
+            color: #e41a15;
+        }
+
+        &_list {
+            display: flex;
+            height: 3rem;
+            align-items: center;
+            padding-left: 16rem;
+        }
+
+        &_list>span>a {
+            margin-right: .8rem;
+            padding-right: 10px;
+            border-right: 1px solid #282828;
+            text-transform: uppercase;
+            color: black;
+            font-weight: 900;
+        }
+
+        &_list>span>a:hover {
+            color: #e41a15;
+        }
+
+        &_list>span>a:nth-child(8) {
+            border-right: none;
+        }
+    }
+}
+
+
+// .swiper {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .swiper-slide {
+//     text-align: center;
+//     font-size: 18px;
+//     background: #e41a15;
+
+//     /* Center slide text vertically */
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: -webkit-flex;
+//     display: flex;
+//     -webkit-box-pack: center;
+//     -ms-flex-pack: center;
+//     -webkit-justify-content: center;
+//     justify-content: center;
+//     -webkit-box-align: center;
+//     -ms-flex-align: center;
+//     -webkit-align-items: center;
+//     align-items: center;
+// }
+
+// .swiper-slide img {
+//     display: block;
+//     width: 100%;
+//     height: 483px;
+//     object-fit: contain;
+// }
+
+// .swiper-button-next:after,
+// .swiper-button-prev:after {
+//     color: gray;
+// }
